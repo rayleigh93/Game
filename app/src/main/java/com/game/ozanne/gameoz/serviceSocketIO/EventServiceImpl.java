@@ -2,6 +2,11 @@ package com.game.ozanne.gameoz.serviceSocketIO;
 
 import android.util.Log;
 
+import com.game.ozanne.gameoz.GameObject;
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
 import java.net.URISyntaxException;
 
 import io.socket.client.IO;
@@ -65,7 +70,9 @@ public class EventServiceImpl implements EventService {
         mSocket.on( EVENT_JOINED,onUserJoined);
         mSocket.on(EVENT_GAME_CREATED,onGameCreated);
 
+
         mSocket.connect();
+
     }
 
     /**
@@ -125,8 +132,8 @@ public class EventServiceImpl implements EventService {
     private Emitter.Listener onGameCreated = new Emitter.Listener() {
         @Override
         public void call(Object... args) {
-            String data = (String) args[0];
-            Log.i(TAG, "call: onGameCreated : " + data);
+            Log.i(TAG,mSocket.id());
+            Log.i(TAG, "call: onGameCreated : " );
             if (mEventListener != null) mEventListener.onGameCreated(args);
         }
     };

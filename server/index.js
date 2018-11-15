@@ -6,6 +6,7 @@ io = require('socket.io').listen(server);
 
 const createGame = require('./creategame');
 const manageUser = require('./manageuser');
+const gameObject = require('./gameobject');
 
 
 app.get('/', (req, res) => {
@@ -54,8 +55,8 @@ socket.on('disconnect', function() {
 
 exports.createOneGame = function(idOne,idTwo) {
 
-    io.to(`${idOne}`).emit('gamecreated', 'I just met you');
-    io.to(`${idTwo}`).emit('gamecreated', 'I just met you');
+    io.to(`${idOne}`).emit('gamecreated', gameObject.createJsonGameObject(idOne,idTwo,"AZERTY"));
+    io.to(`${idTwo}`).emit('gamecreated',  gameObject.createJsonGameObject(idOne,idTwo,"AZERTY"));
 
 }
 

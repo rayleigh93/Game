@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c3b6cc7ec7eb4396067635d5e62522f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3da1bed9b757bb358952ee7a1384e4eb\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\505f7751ea968ea1b39fe2543e3c4224\AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton:butterknife:9.0.0-rc1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\butterknife-9.0.0-rc1.aar\257d92e4b64a8a1b74024cea947bdc3e\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f4c73d6449b4fd656819aab5f81abdd0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\cb2a2b0093e14f6dc2798bd944f56f02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b898f7e2350beefb7c6a917dbc30b827\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bd96967761e645c545902c6fc4d50bae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\40ba160ebb4e28751ff6c52286eff7e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:9.0.0-rc1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-9.0.0-rc1.aar\d7ed63c7f3a7efcef86613494de73f86\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc9f3b8fa69d00fc7d174d48a6271f96\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\dd2b8d7aded04a3194a38f2b1711b014\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\19b18b75f64c8b4c69d673cadf35fee1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5c7bc09a6c717460e18e69e65d95cb0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9b203cd698893ad9ab32f840949a172f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\14e2654d6afe22dc77ae1ae1607ba868\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3f965bd68544afd9ce4cec468773e327\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\643b52193b17c21f62bf92c11eb52a7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9c3b01ff60ed5eeee9978cfc7a872cb4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\12ce55034acfcac2eae0589ce80fb18a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e65937630f9b770477e1cc05b78f36d6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8d68ff3f88594b3cc7f8556b73733e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\bc113c2369a3a91b9aa515b6b3cffd41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\bba34e3d8e364002a6f3b7fa510dfa84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bf6fbbd68dcbc19b43d30908451ac670\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\6f8937ec4e3dc7f5b01012680c2de652\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b3a11b9f9765d9f2119b6b110a330165\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4ccf1998bb220e53a10f8112f6e3e5de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d8ebb2dc33cdb9c70749aef7836f2b18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d77c149505be6516e765c22e4e89e324\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:7:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3da1bed9b757bb358952ee7a1384e4eb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3da1bed9b757bb358952ee7a1384e4eb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9c3b01ff60ed5eeee9978cfc7a872cb4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9c3b01ff60ed5eeee9978cfc7a872cb4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\12ce55034acfcac2eae0589ce80fb18a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\12ce55034acfcac2eae0589ce80fb18a\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9c3b01ff60ed5eeee9978cfc7a872cb4\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.game.ozanne.gameoz.MainActivity.MainView
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:14:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.game.ozanne.gameoz.GameView
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:21:9-55
+	android:name
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:21:19-43
+uses-sdk
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c3b6cc7ec7eb4396067635d5e62522f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c3b6cc7ec7eb4396067635d5e62522f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3da1bed9b757bb358952ee7a1384e4eb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3da1bed9b757bb358952ee7a1384e4eb\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\505f7751ea968ea1b39fe2543e3c4224\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\505f7751ea968ea1b39fe2543e3c4224\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:9.0.0-rc1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\butterknife-9.0.0-rc1.aar\257d92e4b64a8a1b74024cea947bdc3e\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:9.0.0-rc1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\butterknife-9.0.0-rc1.aar\257d92e4b64a8a1b74024cea947bdc3e\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f4c73d6449b4fd656819aab5f81abdd0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f4c73d6449b4fd656819aab5f81abdd0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\cb2a2b0093e14f6dc2798bd944f56f02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\cb2a2b0093e14f6dc2798bd944f56f02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b898f7e2350beefb7c6a917dbc30b827\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b898f7e2350beefb7c6a917dbc30b827\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bd96967761e645c545902c6fc4d50bae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bd96967761e645c545902c6fc4d50bae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\40ba160ebb4e28751ff6c52286eff7e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\40ba160ebb4e28751ff6c52286eff7e1\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:9.0.0-rc1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-9.0.0-rc1.aar\d7ed63c7f3a7efcef86613494de73f86\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:9.0.0-rc1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-9.0.0-rc1.aar\d7ed63c7f3a7efcef86613494de73f86\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc9f3b8fa69d00fc7d174d48a6271f96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc9f3b8fa69d00fc7d174d48a6271f96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\dd2b8d7aded04a3194a38f2b1711b014\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\dd2b8d7aded04a3194a38f2b1711b014\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\19b18b75f64c8b4c69d673cadf35fee1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\19b18b75f64c8b4c69d673cadf35fee1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5c7bc09a6c717460e18e69e65d95cb0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5c7bc09a6c717460e18e69e65d95cb0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9b203cd698893ad9ab32f840949a172f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9b203cd698893ad9ab32f840949a172f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\14e2654d6afe22dc77ae1ae1607ba868\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\14e2654d6afe22dc77ae1ae1607ba868\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3f965bd68544afd9ce4cec468773e327\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3f965bd68544afd9ce4cec468773e327\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\643b52193b17c21f62bf92c11eb52a7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\643b52193b17c21f62bf92c11eb52a7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9c3b01ff60ed5eeee9978cfc7a872cb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9c3b01ff60ed5eeee9978cfc7a872cb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\12ce55034acfcac2eae0589ce80fb18a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\12ce55034acfcac2eae0589ce80fb18a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e65937630f9b770477e1cc05b78f36d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e65937630f9b770477e1cc05b78f36d6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8d68ff3f88594b3cc7f8556b73733e3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8d68ff3f88594b3cc7f8556b73733e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\bc113c2369a3a91b9aa515b6b3cffd41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\bc113c2369a3a91b9aa515b6b3cffd41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\bba34e3d8e364002a6f3b7fa510dfa84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\bba34e3d8e364002a6f3b7fa510dfa84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bf6fbbd68dcbc19b43d30908451ac670\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bf6fbbd68dcbc19b43d30908451ac670\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\6f8937ec4e3dc7f5b01012680c2de652\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\6f8937ec4e3dc7f5b01012680c2de652\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b3a11b9f9765d9f2119b6b110a330165\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b3a11b9f9765d9f2119b6b110a330165\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4ccf1998bb220e53a10f8112f6e3e5de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4ccf1998bb220e53a10f8112f6e3e5de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d8ebb2dc33cdb9c70749aef7836f2b18\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d8ebb2dc33cdb9c70749aef7836f2b18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d77c149505be6516e765c22e4e89e324\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ozanne\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d77c149505be6516e765c22e4e89e324\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml
