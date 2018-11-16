@@ -1,16 +1,9 @@
 package com.game.ozanne.gameoz.MainActivity;
 
+interface BaseView<T> {
+
+     void initView();
 
 
-
-
-public interface BaseView<T> {
-
-    void setPresenter(T presenter);
-
-
-    void initView();
-
-
-
+   void setPresenter(MainContract.Presenter presenter);
 }

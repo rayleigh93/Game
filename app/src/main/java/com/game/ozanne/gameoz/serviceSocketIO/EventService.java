@@ -1,20 +1,20 @@
 package com.game.ozanne.gameoz.serviceSocketIO;
 
-
 import java.net.URISyntaxException;
 
-/**
- * Service Layer that connect/disconnectto the serveur and
- * send and receives events too
- */
+import io.reactivex.Flowable;
+
 public interface EventService {
 
 
-    void connect(String userName) throws URISyntaxException;
+    void connect(String username) throws URISyntaxException;
 
     void disconnect();
 
+    Flowable<Integer> sendAction(Integer position);
+
     void setEventListener(EventListener eventListener);
+
 
 
 }

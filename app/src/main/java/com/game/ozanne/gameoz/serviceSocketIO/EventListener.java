@@ -33,4 +33,6 @@ public interface EventListener {
     void onGameCreated (Object... args);
 
 
+    void onNewAction(Object... args);
+
 }

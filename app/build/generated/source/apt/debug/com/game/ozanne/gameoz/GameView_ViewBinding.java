@@ -5,21 +5,24 @@ import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.LinearLayout;
+
+import com.game.ozanne.gameoz.GameActivity.GameViewGame;
+
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
 public class GameView_ViewBinding implements Unbinder {
-  private GameView target;
+  private GameViewGame target;
 
   @UiThread
-  public GameView_ViewBinding(GameView target) {
+  public GameView_ViewBinding(GameViewGame target) {
     this(target, target.getWindow().getDecorView());
   }
 
   @UiThread
-  public GameView_ViewBinding(GameView target, View source) {
+  public GameView_ViewBinding(GameViewGame target, View source) {
     this.target = target;
 
     target.caseOne = Utils.findRequiredViewAsType(source, R.id.caseOne, "field 'caseOne'", LinearLayout.class);
@@ -36,7 +39,7 @@ public class GameView_ViewBinding implements Unbinder {
   @Override
   @CallSuper
   public void unbind() {
-    GameView target = this.target;
+    GameViewGame target = this.target;
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 

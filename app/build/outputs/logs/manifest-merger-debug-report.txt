@@ -91,10 +91,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:18:27-74
-activity#com.game.ozanne.gameoz.GameView
-ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:21:9-55
+activity#com.game.ozanne.gameoz.GameActivity.GameViewGame
+ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:21:9-72
 	android:name
-		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:21:19-43
+		ADDED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml:21:19-60
 uses-sdk
 INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ozanne\Desktop\GameOz\app\src\main\AndroidManifest.xml

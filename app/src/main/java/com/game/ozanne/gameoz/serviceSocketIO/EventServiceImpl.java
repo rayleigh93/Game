@@ -2,13 +2,12 @@ package com.game.ozanne.gameoz.serviceSocketIO;
 
 import android.util.Log;
 
-import com.game.ozanne.gameoz.GameObject;
-import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-
 import java.net.URISyntaxException;
 
+import io.reactivex.BackpressureStrategy;
+import io.reactivex.Flowable;
+import io.reactivex.FlowableEmitter;
+import io.reactivex.FlowableOnSubscribe;
 import io.socket.client.IO;
 import io.socket.client.Socket;
 import io.socket.emitter.Emitter;
@@ -84,6 +83,17 @@ public class EventServiceImpl implements EventService {
     }
 
 
+    @Override
+    public Flowable<Integer> sendAction(final Integer position) {
+        return Flowable.create(new FlowableOnSubscribe<Integer>() {
+            @Override
+            public void subscribe(FlowableEmitter<Integer> emitter) throws Exception {
+                mSocket.emit("sendaction", position);
+               emitter.onNext(position);
+            }
+        }, BackpressureStrategy.BUFFER);
+    }
+
 
     /**
      * Quand un User est connecté, on emit le nom au serveur pour que ce dernier l'envoie aux clients
@@ -139,8 +149,11 @@ public class EventServiceImpl implements EventService {
     };
 
 
+    public static Socket getmSocket() {
+        return mSocket;
+    }
 
-
-
-
+    public static void setmSocket(Socket mSocket) {
+        EventServiceImpl.mSocket = mSocket;
+    }
 }

@@ -5,7 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.game.ozanne.gameoz.GameView;
+
+import com.game.ozanne.gameoz.GameActivity.GameViewGame;
 import com.game.ozanne.gameoz.R;
 import com.game.ozanne.gameoz.remoteDataSource.RemoteDataSource;
 import com.game.ozanne.gameoz.repository.Repository;
@@ -30,14 +31,14 @@ public class MainView extends AppCompatActivity implements MainContract.View {
                             this);
 
         try {
-            mPresenter.subscribe();
+            mPresenter.subscribe("TOTO");
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
 
 
 
-        startActivity(new Intent(this,GameView.class));
+        startActivity(new Intent(this,GameViewGame.class));
 
     }
 
@@ -79,6 +80,11 @@ public class MainView extends AppCompatActivity implements MainContract.View {
 
     @Override
     public void onGameCreated(Object... args) {
+
+    }
+
+    @Override
+    public void onNewAction(Object... args) {
 
     }
 

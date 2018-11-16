@@ -2,11 +2,11 @@ package com.game.ozanne.gameoz.MainActivity;
 
 import java.net.URISyntaxException;
 
-public interface BasePresenter {
+interface BasePresenter {
 
-    void subscribe() throws URISyntaxException;
 
     void unsubscribe();
 
+    void subscribe(String userName) throws URISyntaxException;
 
 }

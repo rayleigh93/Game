@@ -50,6 +50,15 @@ socket.on('disconnect', function() {
     })
 
 
+    socket.on('sendaction', function(position) {
+       
+        console.log(' action ' + position)
+    
+    
+        })
+
+
+
 })
 
 

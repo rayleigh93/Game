@@ -7,6 +7,8 @@ import com.game.ozanne.gameoz.serviceSocketIO.EventListener;
 
 import java.net.URISyntaxException;
 
+import io.reactivex.Flowable;
+
 public class Repository implements DataSource {
 
 
@@ -36,10 +38,18 @@ public class Repository implements DataSource {
     }
 
 
+    public DataSource getmRemoteDataSource() {
+        return mRemoteDataSource;
+    }
 
     @Override
     public void setEventListener(EventListener eventListener) {
         mPresenterEventListener = eventListener;
+    }
+
+    @Override
+    public Flowable<Integer> sendAction(Integer position) {
+        return mRemoteDataSource.sendAction(position);
     }
 
 
@@ -77,5 +87,11 @@ public class Repository implements DataSource {
         if (mPresenterEventListener != null)
             mPresenterEventListener.onGameCreated(args);
 
+    }
+
+    @Override
+    public void onNewAction(Object... args) {
+        if (mPresenterEventListener != null)
+            mPresenterEventListener.onNewAction(args);
     }
 }
