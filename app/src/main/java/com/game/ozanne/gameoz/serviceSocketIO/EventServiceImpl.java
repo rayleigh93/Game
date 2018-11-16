@@ -69,6 +69,8 @@ public class EventServiceImpl implements EventService {
         mSocket.on( EVENT_JOINED,onUserJoined);
         mSocket.on(EVENT_GAME_CREATED,onGameCreated);
 
+        mSocket.on("playerplay",onNewAction);
+
 
         mSocket.connect();
 
@@ -148,12 +150,24 @@ public class EventServiceImpl implements EventService {
         }
     };
 
+    private Emitter.Listener onNewAction = new Emitter.Listener() {
+        @Override
+        public void call(Object... args) {
+            Log.i(TAG, "call: onPlayerPlay" );
+            if (mEventListener != null) mEventListener.onNewAction(args);
+        }
+    };
+
+
+
+
+
+
+
 
     public static Socket getmSocket() {
         return mSocket;
     }
 
-    public static void setmSocket(Socket mSocket) {
-        EventServiceImpl.mSocket = mSocket;
-    }
+
 }

@@ -1,6 +1,9 @@
 package com.game.ozanne.gameoz.GameActivity.Model.POJO;
 
 
+import android.support.annotation.NonNull;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public  class GameObject {
@@ -21,12 +24,11 @@ public  class GameObject {
 
 
     public GameObject() {
+        playerTurn = "";
+        idUserOne = "";
+        idUserTwo = "";
+        arrayCase = new ArrayList<>();
     }
-
-
-
-
-
 
 
     @Override

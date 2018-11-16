@@ -33,6 +33,10 @@ exports.deleteUser = function(id) {
 
 }
 
+exports.sendArray = function(){
+    return userArray;
+}
+
 
 
 

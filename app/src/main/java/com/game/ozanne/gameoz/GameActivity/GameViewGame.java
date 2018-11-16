@@ -81,8 +81,11 @@ public class GameViewGame extends AppCompatActivity implements GameContract.View
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
+
+
                 // Stuff that updates the UI
                 gameManager.changeGrille(gameObject);
+
             }
         });
     }

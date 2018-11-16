@@ -1,10 +1,10 @@
 
-
-
+exports.gameObject ;
+const manageUserModule = require('./manageuser');
 
 exports.createJsonGameObject = function(idPlayerOne,idPlayerTwo,idGame) {
 
-    var gameObject = 
+    var gameObjectStart = 
 
         {"arrayCase":
             [{"typeCase":"vide"},
@@ -21,5 +21,26 @@ exports.createJsonGameObject = function(idPlayerOne,idPlayerTwo,idGame) {
         "idUserOne":idPlayerOne,
         "playerTurn":idPlayerOne}
 
-        return gameObject;
+        gameObject = gameObjectStart;
+        return gameObjectStart;
+}
+
+
+exports.changeGameObjects = function(position,idUserPlayed){
+
+
+    if(idUserPlayed === gameObject.idUserOne)
+    gameObject.playerTurn = gameObject.idUserTwo
+    else
+    gameObject.playerTurn = gameObject.idUserOne
+
+
+    gameObject.arrayCase[position].typeCase = "green";
+
+
+    console.log(gameObject);
+
+
+    return gameObject;
+
 }

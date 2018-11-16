@@ -5,7 +5,7 @@ server = http.createServer(app),
 io = require('socket.io').listen(server);
 
 const createGame = require('./creategame');
-const manageUser = require('./manageuser');
+const manageUserModule = require('./manageuser');
 const gameObject = require('./gameobject');
 
 
@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 res.send('Chat Server is running on port 3000')
 });
 
-manageUser.initializeUser();
+manageUserModule.initializeUser();
 
 
 
@@ -31,7 +31,7 @@ socket.on('add user', function(userName) {
     socket.broadcast.emit( "userjoined" , userName )
 
     // On ajoute ce joueur à la liste des joueurs en ligne
-    manageUser.addUser(socket.id,userName);
+    manageUserModule.addUser(socket.id,userName);
     
 })
 
@@ -46,14 +46,14 @@ socket.on('disconnect', function() {
         socket.broadcast.emit( "userdijoined" ,' user has left')
 
         // On retire ce joueur à la liste des joueurs en ligne
-        manageUser.deleteUser(socket.id)
+        manageUserModule.deleteUser(socket.id)
     })
 
 
     socket.on('sendaction', function(position) {
        
-        console.log(' action ' + position)
-    
+         console.log(' action ' + position)
+         sendGame(position,socket.id)
     
         })
 
@@ -62,10 +62,26 @@ socket.on('disconnect', function() {
 })
 
 
+function sendGame(position,userIdPlayed) {
+
+    var array = manageUserModule.sendArray();
+    
+  
+
+    io.to(`${array[0].userId}`).emit('playerplay',  gameObject.changeGameObjects(position,userIdPlayed) );
+    io.to(`${array[1].userId}`).emit('playerplay',   gameObject.changeGameObjects(position,userIdPlayed));
+
+}
+
+
+
+
 exports.createOneGame = function(idOne,idTwo) {
 
-    io.to(`${idOne}`).emit('gamecreated', gameObject.createJsonGameObject(idOne,idTwo,"AZERTY"));
-    io.to(`${idTwo}`).emit('gamecreated',  gameObject.createJsonGameObject(idOne,idTwo,"AZERTY"));
+    var game = gameObject.createJsonGameObject(idOne,idTwo,"AZERTY");
+
+    io.to(`${idOne}`).emit('gamecreated', game);
+    io.to(`${idTwo}`).emit('gamecreated', game);
 
 }
 
