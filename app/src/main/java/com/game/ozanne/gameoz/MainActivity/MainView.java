@@ -1,6 +1,7 @@
 package com.game.ozanne.gameoz.MainActivity;
 
 import android.content.Intent;
+import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +17,7 @@ import java.net.URISyntaxException;
 public class MainView extends AppCompatActivity implements MainContract.View {
 
 
+    private static final String TAG = "MainView";
     private MainContract.Presenter mPresenter;
 
 
@@ -34,6 +36,7 @@ public class MainView extends AppCompatActivity implements MainContract.View {
             mPresenter.subscribe("TOTO");
         } catch (URISyntaxException e) {
             e.printStackTrace();
+            Log.i(TAG,e.getMessage());
         }
 
 
