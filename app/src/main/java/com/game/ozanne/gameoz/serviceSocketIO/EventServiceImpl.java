@@ -27,6 +27,11 @@ public class EventServiceImpl implements EventService {
     private static final String EVENT_DISCONNECT = Socket.EVENT_DISCONNECT;
     private static final String EVENT_JOINED = "userjoined";
     private static final String EVENT_GAME_CREATED = "gamecreated";
+
+    private static final String EMIT_ADD_USER = "add user";
+    private static final String EMIT_SEND_ACTION = "sendaction";
+
+
     private static EventService INSTANCE;
     private static EventListener mEventListener;
     private static Socket mSocket;
@@ -90,7 +95,7 @@ public class EventServiceImpl implements EventService {
         return Flowable.create(new FlowableOnSubscribe<Integer>() {
             @Override
             public void subscribe(FlowableEmitter<Integer> emitter) throws Exception {
-                mSocket.emit("sendaction", position);
+                mSocket.emit(EMIT_SEND_ACTION, position);
                emitter.onNext(position);
             }
         }, BackpressureStrategy.BUFFER);
@@ -104,7 +109,7 @@ public class EventServiceImpl implements EventService {
         @Override
         public void call(Object... args) {
             Log.i(TAG, "call: onConnect");
-           mSocket.emit("add user", mUsername);
+           mSocket.emit(EMIT_ADD_USER, mUsername);
             if (mEventListener != null) mEventListener.onConnect(args);
         }
     };
